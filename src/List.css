@@ -1,0 +1,36 @@
+.ToDoList {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.List {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 50%;
+}
+
+.listItem {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px;
+  width: 100%;
+}
+
+.filters {
+  margin-bottom: 20px;
+}
+
+.filters button {
+  margin: 0 5px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: beige;
+}
+
+.filters button:hover {
+  background-color: bisque;
+}
